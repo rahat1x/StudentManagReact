@@ -1,0 +1,55 @@
+.sidebar{
+    margin-top: 52px;
+}
+.link-text {
+    width: 90px;
+    height: 21px;
+
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: rgba(0, 0, 0, 0.6);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 24px;
+    gap: 16px;
+
+    width: 240px;
+    height: 48px;
+
+    background: #FFFCFB;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    text-decoration: none;
+
+
+}
+
+.active {
+
+    background: #F33823;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
